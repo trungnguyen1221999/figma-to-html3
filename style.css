@@ -457,7 +457,7 @@ a {
   border-right: 4px solid #eaf6ff;
   transition: 0.5s;
 }
-.denstist__item:hover .dentist__avatar {
+.dentist__item:hover .dentist__avatar {
   transform: scale(1.1);
 }
 
@@ -503,7 +503,7 @@ a {
 .control__btn {
   cursor: pointer;
 }
-.control__btn:hover {
+.control:hover {
   color: white;
   background-color: #2e80ce;
 }
