@@ -76,6 +76,15 @@ a {
   line-height: 1.38; /* 138.462% */
 }
 
+.h4 {
+  color: #10375c;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75;
+  text-align: center;
+}
+
 /* ====header======= */
 .header {
   min-height: 100vh;
@@ -144,6 +153,10 @@ a {
 }
 
 /* ==== hero==== */
+.hero__desc {
+  text-align: left;
+}
+
 .hero {
   display: flex;
   justify-content: space-between;
@@ -411,4 +424,86 @@ a {
 .about__desc {
   text-align: left;
   margin-bottom: 36px;
+}
+
+/* dentist */
+
+.dentist {
+  padding-top: 100px;
+}
+
+.dentist-top {
+  text-align: center;
+}
+.dentist__btn {
+  margin-top: 36px;
+  margin-bottom: 70px;
+}
+
+.dentist-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dentist__avatar {
+  height: 290px;
+  max-width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 6px;
+  background-color: #eaf6ff;
+  border-top: 28px solid #eaf6ff;
+  border-left: 4px solid #eaf6ff;
+  border-right: 4px solid #eaf6ff;
+  transition: 0.5s;
+}
+.denstist__item:hover .dentist__avatar {
+  transform: scale(1.1);
+}
+
+.dentist__name {
+  margin-top: 12px;
+}
+
+.dentist__desc {
+  color: #575f66;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.86;
+}
+
+.dentist__item {
+  justify-self: center;
+}
+
+.control {
+  margin-top: 36px;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  border-radius: 36px;
+  border: 1px solid #575f66;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-botton {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+}
+
+.control__next {
+  rotate: 180deg;
+}
+
+.control__btn {
+  cursor: pointer;
+}
+.control__btn:hover {
+  color: white;
+  background-color: #2e80ce;
 }
