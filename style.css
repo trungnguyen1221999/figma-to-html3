@@ -69,6 +69,13 @@ a {
   line-height: 1.67; /* 166.667% */
 }
 
+.h3 {
+  color: #10375c;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.38; /* 138.462% */
+}
+
 /* ====header======= */
 .header {
   min-height: 100vh;
@@ -263,6 +270,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.25s;
 }
 
 .service__item--des {
@@ -291,4 +299,116 @@ a {
 .service__list--teeth:hover {
   color: white;
   background-color: #2e80ce;
+  transition: 0.25s;
+}
+
+/* work */
+.work {
+  background-color: #f6fbff;
+}
+
+.work__container {
+  padding: 100px 0;
+}
+/* work-top */
+.work-top {
+}
+
+.work-top__heading {
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+.work-top__desc {
+  text-align: left;
+  margin-bottom: 86px;
+  width: 468px;
+}
+
+.work-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 46px;
+}
+.work-bottom__item {
+  padding: 42px;
+  border-radius: 4px;
+  background: #fff;
+  border: 16px solid #eaf6ff;
+  transition: 0.75s;
+}
+
+.work-bottom__heading {
+  margin-top: 20.5px;
+}
+
+.work-bottom__desc {
+  font-size: 1.6rem;
+  line-height: 1.75;
+  text-align: left;
+  margin-top: 28px;
+  margin-bottom: 18px;
+}
+
+.work__link {
+  color: #2e80ce;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.work-bottom__item:hover {
+  border-color: #2e80ce;
+  transform: translateY(-25px);
+  transition: 0.75s;
+  cursor: pointer;
+}
+
+/* about */
+.about {
+  padding: 170px 0;
+  background-color: #fff;
+}
+.about__container {
+  display: flex;
+  justify-content: space-between;
+}
+.about-left {
+  width: 44%;
+}
+
+.about-right {
+  width: 41%;
+}
+.about__img--row {
+  width: 512px;
+  height: 370px;
+  border-radius: 6px;
+  object-fit: cover;
+  padding-left: 0;
+}
+
+.about__img--column {
+  width: 332px;
+  height: 370px;
+  border-radius: 6px;
+  object-fit: cover;
+  position: absolute;
+  margin-top: 121px;
+  margin-left: 238px;
+}
+
+.about-left {
+  display: flex;
+  position: relative;
+}
+
+.about__h2 {
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+.about__desc {
+  text-align: left;
+  margin-bottom: 36px;
 }
