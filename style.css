@@ -657,3 +657,165 @@ h4 {
   border: 1px solid var(--primary-color);
   transition: 0.75s;
 }
+
+/* ========appointment */
+.appointment__container {
+  background: #f6fbff;
+  padding: 100px 177px;
+}
+
+.appointment__desc {
+  margin: 38px auto;
+  width: 617px;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.appointment__btn {
+  text-align: center;
+}
+
+.appointment__heading::after {
+  content: "";
+  width: 136px;
+  height: 2px;
+  background-color: var(--primary-color);
+  display: block;
+  margin: 18px auto 0;
+}
+
+/* footer */
+footer {
+  margin-top: 170px;
+  background-color: var(--background-color);
+}
+
+.footer__container {
+  padding: 100px 0 0;
+}
+
+.footer__top {
+  display: grid;
+  grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+  column-gap: 78px;
+  padding-bottom: 27px;
+  border-bottom: 1px solid #406181;
+}
+
+.footer__desc {
+  color: #a9b3bb;
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+  text-align: left;
+}
+
+.footer__heading {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75; /* 175% */
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.footer__item a {
+  color: #a9b3bb;
+  font-family: "Open Sans";
+  font-size: 1.38rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  margin-bottom: 10px;
+}
+.footer__item {
+  text-align: left;
+}
+.footer__heading2 {
+  margin-top: 18px;
+}
+
+.social_btn {
+  display: flex;
+  gap: 10px;
+}
+
+.social_icon {
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+}
+
+.social_btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.social_btn a:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.footer__subcribe--desc {
+  color: #a9b3bb;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.86; /* 185.714% */
+  text-align: left;
+  width: 273px;
+  margin-bottom: 10px;
+}
+
+.email__input {
+  display: flex;
+  gap: 12px;
+}
+
+.subscribe__btn {
+  border-radius: 4px;
+  background: #2e80ce;
+  min-width: 108px;
+  height: 46px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.85; /* 185.714% */
+}
+
+.email {
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #406181;
+  width: 212px;
+  height: 46px;
+  color: #9ca8b1;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.86; /* 185.714% */
+}
+
+.footer__bottom {
+  color: #aab3ba;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
